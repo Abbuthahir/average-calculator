@@ -1,0 +1,22 @@
+{
+  "name": "average-calculator",
+  "version": "1.0.3",
+  "description": "To find average",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbuthahir/average-calculator.git"
+  },
+  "author": "Abbuthahir I",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abbuthahir/average-calculator/issues"
+  },
+  "homepage": "https://github.com/Abbuthahir/average-calculator#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

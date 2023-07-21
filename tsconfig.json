@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "typeRoots": ["./dist"],
+        "outDir": "./dist",
+        "module": "CommonJS",
+        "target": "ES2015",
+        "lib": [
+            "ES2015",
+            "DOM"
+        ],
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "src" , "dist"
+    ]
+}
