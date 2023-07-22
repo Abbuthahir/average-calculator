@@ -5,6 +5,9 @@ export function calculateAverage(numbers: number[]): number {
       throw new Error('Array must not be empty');
     }
   
-    const sum = numbers.reduce((acc, num) => acc + num, 0);
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
     return sum / numbers.length;
   }
